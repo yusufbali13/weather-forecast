@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./img.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-size: cover;
+}
+
+.baslik h1 {
+  font-size: 3rem;
+  margin-top: 3.5rem;
+  color: white;
+}
+
+#input {
+  padding: 0.5rem;
+  width: 15rem;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+#btn {
+  padding: 0.5rem;
+  background-color: rgb(55, 175, 231);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.city-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.city-weather {
+  list-style-type: none;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  background-color: rgb(55, 175, 231);
+  text-align: center;
+  color: white;
+  width: 150px;
+}
+
+.city-name {
+  margin-top: 1rem;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.city-name span {
+  font-size: 12px;
+  padding: 2px;
+  background-color: rgb(12, 12, 216);
+  border-radius: 40%;
+  position: relative;
+  top: -7px;
+  left: 3px;
+}
+
+.city-temprature {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+
+.city-temprature span {
+  font-size: 1.2rem;
+  position: relative;
+  top: -16px;
+}
+
+.description {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
